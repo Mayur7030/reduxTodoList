@@ -1,0 +1,40 @@
+.title {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .addbutton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .outputlist {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .title {
+      font-size: 20px;
+    }
+  
+    .addbutton {
+      margin-top: 8px;
+    }
+  
+    li {
+      font-size: 14px;
+    }
+  }
+  
